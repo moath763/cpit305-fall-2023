@@ -1,6 +1,7 @@
-## Getting Started
+# CPIT 305 Advanced Programming
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This repository contains all code done during lectures.
+
 
 ## Folder Structure
 
@@ -16,3 +17,11 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 ## Dependency Management
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+## Lectures Topics
+
+### Lecture 1
+### Lecture 2
+### Lecture 3
+### Lecture 4
+...
