@@ -29,7 +29,7 @@ This repository contains all code done during lectures.
     - using `DataOutputStream` [Lecture04](/src/lecture04/binaryexm/WriteBinary.java)
   - Read binary file
     - read single recored from file by moving file currsor into specifc position in the file [Lecture 04](/src/lecture04/binaryexm/ReadBinaryByPos.java)
-    - read whole file recored by recored until reaching end of file [Lecture 04](/src/lecture04/binaryexm/ReadBinary.java)
+    - read whole file recored by recored until reaching end of file using `EOFException` [Lecture 04](/src/lecture04/binaryexm/ReadBinary.java)
 
 ## Folder Structure
 
