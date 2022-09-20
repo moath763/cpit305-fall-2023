@@ -39,11 +39,24 @@ This repository contains all code done during lectures.
   - Create new Directory and delete it using [Lecture 07](/src/lecture07/filemanager/FolderCreator.java)
   - Using `JFileChooser` and list selected directory files [Lecture 07](/src/lecture07/filemanager/FileBrowser.java)
   - List all files and directories and sub-directories recursively as a tree [Lecture 07](/src/lecture07/filemanager/FileTree.java)
+- Storing class instance on a file using `ObjectOutputStrea`
+  - First you make sure your class is serializable (`implements Serializable`)
+    - example Student class [Lecture 09](/src/lecture09/serial/Student.java)
+  - Write Object onto file [Lecture 09](/src/lecture09/serial/WriteObject.java)
+  - Read Several stored objects from a binary file [Lecture 09](/src/lecture09/serial/ReadObject.java)
 
 ### Exception Handling
 - Throw an exception to stop recursion backword [Lecture 08](/src/lecture08/throwexample/Demo.java)
 - Unexpected result when using return within a finally block [Lecture 08](/src/lecture08/finallyexample/Demo.java)
 - Custom Exception [Lecture 08](/src/lecture08/custom_exception)
+
+### Threads
+- Example of calculating the sum of an array using:
+  - signle thread - *main* thread [Lecture 09](/src/lecture09/multithread/Mono.java)
+  - multithreads [Lecture 09](/src/lecture09/multithread/Multi.java)
+- Example of shared resource between threads:
+  - incorrect way to increase a counter using several threads [Lecture 09](/src/lecture09/crazycounter)
+  - solve for previous example *comming soon*
 
 
 ## Folder Structure
