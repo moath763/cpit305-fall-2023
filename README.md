@@ -27,9 +27,12 @@ This repository contains all code done during lectures.
 - Binary File with fixed string an example of data recored (int, char[15], double)
   - Write binary file
     - using `DataOutputStream` [Lecture04](/src/lecture04/binaryexm/WriteBinary.java)
-  - Read binary file
+  - Read binary file using `DataInputStream`
     - read single recored from file by moving file currsor into specifc position in the file [Lecture 04](/src/lecture04/binaryexm/ReadBinaryByPos.java)
     - read whole file recored by recored until reaching end of file using `EOFException` [Lecture 04](/src/lecture04/binaryexm/ReadBinary.java)
+- Using input `mark` and `reset` from `BufferedInputStream` [Lecture 05](/src/lecture05/usingmark/Demo.java)
+- Read/Write binary file using `RandomAccessFile` [Lecture 05](/src/lecture05/bytestream/Demo.java)
+- Binary file simulate database management that include (add/edit/delete/search) using `RandomAccessFile` [Lecture 06](/src/lecture06/bytestream)
 
 ## Folder Structure
 
