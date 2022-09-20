@@ -13,8 +13,12 @@ This repository contains all code done during lectures.
 - Method Overloading [Lecture 02](/src/lecture02/review/Demo2.java) 
 
 ### File Stream
-- Write text file using FileOutputStream [Lecture 02](/src/lecture02/file_info/Demo.java)
-- Write text file using BufferedOutputStream [Lecture 02](/src/lecture02/file_info/UsingBuffer.java)
+- Write text file
+  - using `FileOutputStream` [Lecture 02](/src/lecture02/file_info/Demo.java)
+  - using `BufferedOutputStream` [Lecture 02](/src/lecture02/file_info/UsingBuffer.java)
+- Read text file using `FileInputStream` and array of byte
+  - Read part of a text file `no loop` [Lecture 03](/src/lecture03/InputDemo.java)
+  - Read whole text file (general reader) [Lecture 03](/src/lecture03/FileReaderDemo.java)
 
 ## Folder Structure
 
