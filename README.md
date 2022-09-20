@@ -32,7 +32,13 @@ This repository contains all code done during lectures.
     - read whole file recored by recored until reaching end of file using `EOFException` [Lecture 04](/src/lecture04/binaryexm/ReadBinary.java)
 - Using input `mark` and `reset` from `BufferedInputStream` [Lecture 05](/src/lecture05/usingmark/Demo.java)
 - Read/Write binary file using `RandomAccessFile` [Lecture 05](/src/lecture05/bytestream/Demo.java)
-- Binary file simulate database management that include (add/edit/delete/search) using `RandomAccessFile` [Lecture 06](/src/lecture06/bytestream)
+- Binary file simulate database management system that include (add/edit/delete/search) using `RandomAccessFile` [Lecture 06](/src/lecture06/bytestream)
+- `File` usage:
+  - Reterive file information and check its existance [Lecture 07](/src/lecture07/filemanager/Demo.java)
+  - Create new file and delete it [Lecture 07](/src/lecture07/filemanager/FileCreator.java)
+  - Create new Directory and delete it using [Lecture 07](/src/lecture07/filemanager/FolderCreator.java)
+  - Using `JFileChooser` and list selected directory files [Lecture 07](/src/lecture07/filemanager/FileBrowser.java)
+  - List all files and directories and sub-directories recursively [Lecture 07](/src/lecture07/filemanager/FileTree.java)
 
 ## Folder Structure
 
