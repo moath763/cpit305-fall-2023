@@ -11,7 +11,10 @@ This repository contains all code done during lectures.
 - Pass by Value [Lecture 02: By Value](/src/lecture02/review/PassByValue.java)
 - Pass by Reference [Lecture 02: By Refrence](/src/lecture02/review/PassByRefrence.java) 
 - Method Overloading [Lecture 02: Overloading](/src/lecture02/review/Demo2.java) 
-- 
+
+### File Stream
+- Write text file using FileOutputStream [Lecture 02: Overloading](/src/lecture02/file_info/Demo.java)
+- Write text file using BufferedOutputStream [Lecture 02: Overloading](/src/lecture02/file_info/UsingBuffer.java)
 
 ## Folder Structure
 
