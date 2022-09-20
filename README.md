@@ -12,7 +12,10 @@ This repository contains all code done during lectures.
 - Pass by Reference [Lecture 02](/src/lecture02/review/PassByRefrence.java) 
 - Method Overloading [Lecture 02](/src/lecture02/review/Demo2.java) 
 
-### File Stream
+### IO Stream
+Here the class diagram for all IO Stream
+![IO Stream Class diagram](/images/iostream.jpg)
+
 - User Input using `System.in` and `Scanner`
   - String Parser using `StringTokenizer` [Lecture 03](/src/lecture04/text/DataEntry.java)
 - Text File
