@@ -3,6 +3,14 @@
 This repository contains all code done during lectures.
 
 
+## Lectures Topics
+
+### Review
+- Inhretance [Lecture 01](/src/lecture01), [Lecture 02](/src/lecture02/review)
+- Pass by Value [Lecture 02](/src/lecture02/review/PassByValue.java)
+- Pass by Reference [Lecture 02](/src/lecture02/review/PassByRefrence.java) 
+
+
 ## Folder Structure
 
 The workspace contains two folders by default, where:
@@ -17,11 +25,3 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 ## Dependency Management
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-
-## Lectures Topics
-
-### Lecture 1
-### Lecture 2
-### Lecture 3
-### Lecture 4
-...
