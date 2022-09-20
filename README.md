@@ -39,7 +39,7 @@ This repository contains all code done during lectures.
   - Create new Directory and delete it using [Lecture 07](/src/lecture07/filemanager/FolderCreator.java)
   - Using `JFileChooser` and list selected directory files [Lecture 07](/src/lecture07/filemanager/FileBrowser.java)
   - List all files and directories and sub-directories recursively as a tree [Lecture 07](/src/lecture07/filemanager/FileTree.java)
-- Storing class instance on a file using `ObjectOutputStrea`
+- Working with class instance to be stored/read in/from a file using `ObjectOutputStrea` and `ObjectInputStream` [Lecture 09](/src/lecture09/serial)
   - First you make sure your class is serializable (`implements Serializable`)
     - example Student class [Lecture 09](/src/lecture09/serial/Student.java)
   - Write Object onto file [Lecture 09](/src/lecture09/serial/WriteObject.java)
