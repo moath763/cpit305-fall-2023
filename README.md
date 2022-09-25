@@ -52,9 +52,9 @@ Here the class diagram for all IO Stream
 - Throw an exception to stop recursion backword [Lecture 08](/src/lecture08/throwexample/Demo.java)
 - Unexpected result when using return within a finally block [Lecture 08](/src/lecture08/finallyexample/Demo.java)
 - Custom Exception [Lecture 08](/src/lecture08/custom_exception)
-- Custom uncheck exception (RuntimeException) [Lecture 10.1](/src/lecture10/bankexample/NegativeAmountException.java )
-- Custom uncheck exception (RuntimeException) [Lecture 10.2](/src/lecture10/bankexample/SameAccountException.java)
-  - using above custom exceptions [Lecture 10](/src/lecture10/bankexample/Bank.java#L16-L17)
+- Custom uncheck exception (RuntimeException) [Lecture 10 NegativeAmountException](/src/lecture10/bankexample/NegativeAmountException.java )
+- Custom uncheck exception (RuntimeException) [Lecture 10 SameAccountException](/src/lecture10/bankexample/SameAccountException.java)
+  - using above custom exceptions [Lecture 10 Bank](/src/lecture10/bankexample/Bank.java#L16-L17), [Lecture 10 ATM](/src/lecture10/bankexample/ATM.java#L16-L18)
 
 ### Threads
 
