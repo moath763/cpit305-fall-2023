@@ -3,16 +3,20 @@
 This repository contains all code done during lectures.
 
 
-## Lectures Topics
+## Topics
+1. [Review](#review)
+1. [IO Stream](#io-stream)
+1. [Exception Handling](#exception-handling)
+1. [Threads](#threads)
 
-### Review
+## Review
 - Inhretance [Lecture 01](/src/lecture01), [Lecture 02](/src/lecture02/review)
 - Access modifier [Lecture 02](/src/lecture02/review/Demo.java)
 - Pass by Value [Lecture 02](/src/lecture02/review/PassByValue.java)
 - Pass by Reference [Lecture 02](/src/lecture02/review/PassByRefrence.java) 
 - Method Overloading [Lecture 02](/src/lecture02/review/Demo2.java) 
 
-### IO Stream
+## IO Stream
 Here the class diagram for all IO Stream
 ![IO Stream Class diagram](/images/iostream.jpg)
 
@@ -48,7 +52,7 @@ Here the class diagram for all IO Stream
   - Write Object onto file [Lecture 09](/src/lecture09/serial/WriteObject.java)
   - Read Several stored objects from a binary file [Lecture 09](/src/lecture09/serial/ReadObject.java)
 
-### Exception Handling
+## Exception Handling
 - Throw an exception to stop recursion backword [Lecture 08](/src/lecture08/throwexample/Demo.java)
 - Unexpected result when using return within a finally block [Lecture 08](/src/lecture08/finallyexample/Demo.java)
 - Custom Exception [Lecture 08](/src/lecture08/custom_exception)
@@ -56,7 +60,7 @@ Here the class diagram for all IO Stream
 - Custom uncheck exception (RuntimeException) [Lecture 10 SameAccountException](/src/lecture10/bankexample/SameAccountException.java)
   - using above custom exceptions [Lecture 10 Bank](/src/lecture10/bankexample/Bank.java#L16-L17), [Lecture 10 ATM](/src/lecture10/bankexample/ATM.java#L16-L18)
 
-### Threads
+## Threads
 
 ![Thread States](/images/thread-vs-process-states.svg)
 
