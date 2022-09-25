@@ -54,7 +54,7 @@ Here the class diagram for all IO Stream
 - Custom Exception [Lecture 08](/src/lecture08/custom_exception)
 - Custom uncheck exception (RuntimeException) [Lecture 10.1](/src/lecture10/bankexample/NegativeAmountException.java )
 - Custom uncheck exception (RuntimeException) [Lecture 10.2](/src/lecture10/bankexample/SameAccountException.java)
-  - using above custom exceptions [Lecture 10](/src/lecture10/bankexample/Bank.java#L16-17)
+  - using above custom exceptions [Lecture 10](/src/lecture10/bankexample/Bank.java#L16-L17)
 
 ### Threads
 
