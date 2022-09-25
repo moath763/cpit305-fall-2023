@@ -61,6 +61,8 @@ Here the class diagram for all IO Stream
   - incorrect way to increase a counter using several threads [Lecture 09](/src/lecture09/crazycounter)
   - solve for previous example *comming soon*
 
+![Thread States](/images/thread-vs-Process-States.pdf)
+
 
 ## Folder Structure
 
