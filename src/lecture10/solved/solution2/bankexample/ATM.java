@@ -1,4 +1,4 @@
-package lecture10.otherway.bankexample;
+package lecture10.solved.solution2.bankexample;
 
 import lecture10.bankexample.SameAccountException;
 

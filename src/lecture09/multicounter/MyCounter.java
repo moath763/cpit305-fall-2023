@@ -1,4 +1,4 @@
-package lecture09.crazycounter;
+package lecture09.multicounter;
 
 public class MyCounter extends Thread {
 

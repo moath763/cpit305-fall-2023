@@ -54,14 +54,24 @@ Here the class diagram for all IO Stream
 - Custom Exception [Lecture 08](/src/lecture08/custom_exception)
 
 ### Threads
+
+![Thread States](/images/thread-vs-process-states.svg)
+
 - Example of calculating the sum of an array using:
   - signle thread - *main* thread [Lecture 09](/src/lecture09/multithread/Mono.java)
   - multithreads [Lecture 09](/src/lecture09/multithread/Multi.java)
 - Example of shared resource between threads:
-  - incorrect way to increase a counter using several threads [Lecture 09](/src/lecture09/crazycounter)
-  - solve for previous example *comming soon*
+  - Counter: Two threads increasing static variable shared between them. Each thread increases the `counter` 1000000 times, so the final value of `counter` after both threads hould be 2000000
+    - incorrect way to increase a counter using several threads [Lecture 09](/src/lecture09/multicounter)
+    - solve for previous example
+      - adding synchronized to method signture [Lecture 10](/src/lecture10/solved/solution1/multicounter)
+      - using synchronized block [Lecture 10](/src/lecture10/solved/solution2/multicounter)
+  - Bank and ATM: A bank has several customers' accounts. ATMs use an instance of that bank and call `transfer` method in order to transfere from account to another. Each ATM works as a thread. The transfer occors in the same time which may cause unexpected result. That is, bank instance initilized with number of accounts with initial amount of 1000.0 SAR. Assume that number of accounts is 10. The total balance of the bank should always 1000.0 * 10 = 10000.0; however, do to the concurrent transfer the total bank balance change which it should not.
+    - Unsolved example: [Lecture 10](/src/lecture10/bankexample)
+    - Solved example:
+      - using synchronized keyword with `transfer` method signture [Lecture 10](/src/lecture10/solved/solution1/bankexample)
+      - using synchronized block [Lecture 10](/src/lecture10/solved/solution2/bankexample)
 
-![Thread States](/images/thread-vs-Process-States.pdf)
 
 
 ## Folder Structure

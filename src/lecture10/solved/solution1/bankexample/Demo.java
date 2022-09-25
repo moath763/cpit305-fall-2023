@@ -1,4 +1,4 @@
-package lecture10.otherway.bankexample;
+package lecture10.solved.solution1.bankexample;
 
 public class Demo {
     public static void main(String[] args) {

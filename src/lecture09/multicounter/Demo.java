@@ -1,4 +1,4 @@
-package lecture10.solvedcounter;
+package lecture09.multicounter;
 
 public class Demo {
     public static void main(String[] args) {
@@ -15,6 +15,6 @@ public class Demo {
             System.err.println(e.getMessage());
         }
 
-        System.out.printf("%d ?= 2000000", MyCounter.counter);
+        System.out.println(MyCounter.counter);
     }
 }
