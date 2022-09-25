@@ -61,7 +61,7 @@ Here the class diagram for all IO Stream
   - signle thread - *main* thread [Lecture 09](/src/lecture09/multithread/Mono.java)
   - multithreads [Lecture 09](/src/lecture09/multithread/Multi.java)
 - Example of shared resource between threads:
-  - Counter: Two threads increasing static variable shared between them. Each thread increases the `counter` 1000000 times, so the final value of `counter` after both threads hould be 2000000
+  - Counter: Two threads increasing static variable shared between them. Each thread increases the `counter` 1000000 times, so the final value of `counter` after both threads should be 2000000
     - incorrect way to increase a counter using several threads [Lecture 09](/src/lecture09/multicounter)
     - solve for previous example
       - adding synchronized to method signture [Lecture 10](/src/lecture10/solved/solution1/multicounter)
