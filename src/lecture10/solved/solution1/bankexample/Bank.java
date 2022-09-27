@@ -1,4 +1,7 @@
-package lecture10.bankexample;
+package lecture10.solved.solution1.bankexample;
+
+import lecture10.bankexample.NegativeAmountException;
+import lecture10.bankexample.SameAccountException;
 
 public class Bank {
     public double[] accounts;
@@ -12,7 +15,7 @@ public class Bank {
         total_balance = init_amount * num_of_accounts;
     }
 
-    public void transfer(int from, int to, double amount) {
+    public synchronized void transfer(int from, int to, double amount) {
         if (from == to) throw new SameAccountException();
         if (amount <= 0) throw new NegativeAmountException();
         if (accounts[from] < amount) return;

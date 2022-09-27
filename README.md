@@ -3,16 +3,20 @@
 This repository contains all code done during lectures.
 
 
-## Lectures Topics
+## Topics
+1. [Review](#review)
+1. [IO Stream](#io-stream)
+1. [Exception Handling](#exception-handling)
+1. [Threads](#threads)
 
-### Review
+## Review
 - Inhretance [Lecture 01](/src/lecture01), [Lecture 02](/src/lecture02/review)
 - Access modifier [Lecture 02](/src/lecture02/review/Demo.java)
 - Pass by Value [Lecture 02](/src/lecture02/review/PassByValue.java)
 - Pass by Reference [Lecture 02](/src/lecture02/review/PassByRefrence.java) 
 - Method Overloading [Lecture 02](/src/lecture02/review/Demo2.java) 
 
-### IO Stream
+## IO Stream
 Here the class diagram for all IO Stream
 ![IO Stream Class diagram](/images/iostream.jpg)
 
@@ -48,20 +52,33 @@ Here the class diagram for all IO Stream
   - Write Object onto file [Lecture 09](/src/lecture09/serial/WriteObject.java)
   - Read Several stored objects from a binary file [Lecture 09](/src/lecture09/serial/ReadObject.java)
 
-### Exception Handling
+## Exception Handling
 - Throw an exception to stop recursion backword [Lecture 08](/src/lecture08/throwexample/Demo.java)
 - Unexpected result when using return within a finally block [Lecture 08](/src/lecture08/finallyexample/Demo.java)
 - Custom Exception [Lecture 08](/src/lecture08/custom_exception)
+- Custom uncheck exception (RuntimeException) [Lecture 10 NegativeAmountException](/src/lecture10/bankexample/NegativeAmountException.java )
+- Custom uncheck exception (RuntimeException) [Lecture 10 SameAccountException](/src/lecture10/bankexample/SameAccountException.java)
+  - using above custom exceptions [Lecture 10 Bank](/src/lecture10/bankexample/Bank.java#L16-L17), [Lecture 10 ATM](/src/lecture10/bankexample/ATM.java#L16-L18)
 
-### Threads
+## Threads
+
+![Thread States](/images/thread-vs-process-states.svg)
+
 - Example of calculating the sum of an array using:
   - signle thread - *main* thread [Lecture 09](/src/lecture09/multithread/Mono.java)
   - multithreads [Lecture 09](/src/lecture09/multithread/Multi.java)
 - Example of shared resource between threads:
-  - incorrect way to increase a counter using several threads [Lecture 09](/src/lecture09/crazycounter)
-  - solve for previous example *comming soon*
+  - Counter: Two threads increasing static variable shared between them. Each thread increases the `counter` 1000000 times, so the final value of `counter` after both threads should be 2000000
+    - incorrect way to increase a counter using several threads [Lecture 09](/src/lecture09/multicounter)
+    - solve for previous example
+      - adding synchronized to method signture [Lecture 10](/src/lecture10/solved/solution1/multicounter)
+      - using synchronized block [Lecture 10](/src/lecture10/solved/solution2/multicounter)
+  - Bank and ATM: A bank has several customers' accounts. ATMs use an instance of that bank and call `transfer` method in order to transfere from account to another. Each ATM works as a thread. The transfer occors in the same time which may cause unexpected result. That is, bank instance initilized with number of accounts with initial amount of 1000.0 SAR. Assume that number of accounts is 10. The total balance of the bank should always 1000.0 * 10 = 10000.0; however, do to the concurrent transfer the total bank balance change which it should not.
+    - Unsolved example: [Lecture 10](/src/lecture10/bankexample)
+    - Solved example:
+      - using synchronized keyword with `transfer` method signture [Lecture 10](/src/lecture10/solved/solution1/bankexample)
+      - using synchronized block [Lecture 10](/src/lecture10/solved/solution2/bankexample)
 
-![Thread States](/images/thread-vs-Process-States.pdf)
 
 
 ## Folder Structure

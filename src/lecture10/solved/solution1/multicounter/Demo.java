@@ -1,4 +1,4 @@
-package lecture10.otherway.counter;
+package lecture10.solved.solution1.multicounter;
 
 public class Demo {
     public static void main(String[] args) {

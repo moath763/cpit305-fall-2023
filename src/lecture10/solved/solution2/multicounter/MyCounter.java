@@ -1,4 +1,4 @@
-package lecture10.otherway.counter;
+package lecture10.solved.solution2.multicounter;
 
 public class MyCounter extends Thread {
 

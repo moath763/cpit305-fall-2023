@@ -1,4 +1,6 @@
-package lecture10.bankexample;
+package lecture10.solved.solution2.bankexample;
+
+import lecture10.bankexample.SameAccountException;
 
 public class ATM extends Thread {
     private Bank bank;
