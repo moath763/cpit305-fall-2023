@@ -1,0 +1,378 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Hello",
+            "request": "launch",
+            "mainClass": "lecture01.Hello",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
+            "mainClass": "lecture02.file_info.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch UsingBuffer",
+            "request": "launch",
+            "mainClass": "lecture02.file_info.UsingBuffer",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo(1)",
+            "request": "launch",
+            "mainClass": "lecture02.review.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo2",
+            "request": "launch",
+            "mainClass": "lecture02.review.Demo2",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch PassByRefrence",
+            "request": "launch",
+            "mainClass": "lecture02.review.PassByRefrence",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch PassByValue",
+            "request": "launch",
+            "mainClass": "lecture02.review.PassByValue",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileReaderDemo",
+            "request": "launch",
+            "mainClass": "lecture03.FileReaderDemo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch InputDemo",
+            "request": "launch",
+            "mainClass": "lecture03.InputDemo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReadBinary",
+            "request": "launch",
+            "mainClass": "lecture04.binaryexm.ReadBinary",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReadBinaryByPos",
+            "request": "launch",
+            "mainClass": "lecture04.binaryexm.ReadBinaryByPos",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch WriteBinary",
+            "request": "launch",
+            "mainClass": "lecture04.binaryexm.WriteBinary",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch DataEntry",
+            "request": "launch",
+            "mainClass": "lecture04.text.DataEntry",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo(2)",
+            "request": "launch",
+            "mainClass": "lecture04.text.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReadText",
+            "request": "launch",
+            "mainClass": "lecture04.text.ReadText",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo(3)",
+            "request": "launch",
+            "mainClass": "lecture05.bytestream.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo(4)",
+            "request": "launch",
+            "mainClass": "lecture05.usingmark.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Interactive",
+            "request": "launch",
+            "mainClass": "lecture06.bytestream.Interactive",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo(5)",
+            "request": "launch",
+            "mainClass": "lecture07.filemanager.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileBrowser",
+            "request": "launch",
+            "mainClass": "lecture07.filemanager.FileBrowser",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileCreator",
+            "request": "launch",
+            "mainClass": "lecture07.filemanager.FileCreator",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileTree",
+            "request": "launch",
+            "mainClass": "lecture07.filemanager.FileTree",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch FolderCreator",
+            "request": "launch",
+            "mainClass": "lecture07.filemanager.FolderCreator",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo(6)",
+            "request": "launch",
+            "mainClass": "lecture08.custom_exception.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo(7)",
+            "request": "launch",
+            "mainClass": "lecture08.finallyexample.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo(8)",
+            "request": "launch",
+            "mainClass": "lecture08.throwexample.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo(9)",
+            "request": "launch",
+            "mainClass": "lecture09.multicounter.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Mono",
+            "request": "launch",
+            "mainClass": "lecture09.multithread.Mono",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Multi",
+            "request": "launch",
+            "mainClass": "lecture09.multithread.Multi",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReadObject",
+            "request": "launch",
+            "mainClass": "lecture09.serial.ReadObject",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch WriteObject",
+            "request": "launch",
+            "mainClass": "lecture09.serial.WriteObject",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo(10)",
+            "request": "launch",
+            "mainClass": "lecture10.bankexample.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo(11)",
+            "request": "launch",
+            "mainClass": "lecture10.solved.solution1.bankexample.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo(12)",
+            "request": "launch",
+            "mainClass": "lecture10.solved.solution1.multicounter.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo(13)",
+            "request": "launch",
+            "mainClass": "lecture10.solved.solution2.bankexample.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo(14)",
+            "request": "launch",
+            "mainClass": "lecture10.solved.solution2.multicounter.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo(15)",
+            "request": "launch",
+            "mainClass": "lecture11.deadlock.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo(16)",
+            "request": "launch",
+            "mainClass": "lecture11.deadlock_detector.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo(17)",
+            "request": "launch",
+            "mainClass": "lecture11.deadlock_monitor.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo(18)",
+            "request": "launch",
+            "mainClass": "lecture11.solved.solution3.bankexample.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo(19)",
+            "request": "launch",
+            "mainClass": "lecture11.solved.solution3.multicounter.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo(20)",
+            "request": "launch",
+            "mainClass": "lecture11.threadstates.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo(21)",
+            "request": "launch",
+            "mainClass": "lecture11.threadstatus2.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo(22)",
+            "request": "launch",
+            "mainClass": "lecture11.timedwaiting.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo(23)",
+            "request": "launch",
+            "mainClass": "lecture12.critical.example1.correct.solution1.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo(24)",
+            "request": "launch",
+            "mainClass": "lecture12.critical.example1.correct.solution2.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo(25)",
+            "request": "launch",
+            "mainClass": "lecture12.critical.example1.wrong.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo(26)",
+            "request": "launch",
+            "mainClass": "lecture12.daemon.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo(27)",
+            "request": "launch",
+            "mainClass": "lecture12.interrupt.example1.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo(28)",
+            "request": "launch",
+            "mainClass": "lecture12.interrupt.example2.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo(29)",
+            "request": "launch",
+            "mainClass": "lecture12.interrupt.example3.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo(30)",
+            "request": "launch",
+            "mainClass": "lecture12.interrupt.example4.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        }
+    ]
+}
