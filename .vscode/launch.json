@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
+            "mainClass": "lecture13.bank.solution2.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
+            "mainClass": "lecture13.bank.solution.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
+            "mainClass": "lecture13.bank.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
+            "mainClass": "lecture13.deadlock.solution.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
+            "mainClass": "lecture13.deadlock.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"

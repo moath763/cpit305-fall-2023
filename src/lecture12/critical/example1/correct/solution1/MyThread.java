@@ -9,6 +9,7 @@ public class MyThread extends Thread {
 
     public MyThread(boolean is_incremntal) {
         this.is_incremntal = is_incremntal;
+        System.out.println(L);
     }
 
     @Override
