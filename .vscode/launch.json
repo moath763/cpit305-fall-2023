@@ -8,6 +8,27 @@
             "type": "java",
             "name": "Launch Demo",
             "request": "launch",
+            "mainClass": "lecture14.bank.example4.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
+            "mainClass": "lecture14.bank.example2.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
+            "mainClass": "lecture14.bank.solution.Demo",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
             "mainClass": "lecture13.bank.solution2.Demo",
             "projectName": "cpit305-fall-2022_be238d82"
         },
