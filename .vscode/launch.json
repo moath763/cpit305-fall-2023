@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Review",
+            "request": "launch",
+            "mainClass": "lecture15.Review",
+            "projectName": "cpit305-fall-2022_be238d82"
+        },
+        {
+            "type": "java",
             "name": "Launch Demo",
             "request": "launch",
             "mainClass": "lecture14.bank.example4.Demo",
