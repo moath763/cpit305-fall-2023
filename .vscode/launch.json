@@ -8,6 +8,34 @@
             "type": "java",
             "name": "Launch Demo",
             "request": "launch",
+            "mainClass": "lecture17.trylock_example3.Demo",
+            "projectName": "cpit305-fall-2022_7fc5d602"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
+            "mainClass": "lecture17.trylock_example2.Demo",
+            "projectName": "cpit305-fall-2022_7fc5d602"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
+            "mainClass": "lecture17.trylock_example.Demo",
+            "projectName": "cpit305-fall-2022_7fc5d602"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
+            "mainClass": "lecture17.example1.Demo",
+            "projectName": "cpit305-fall-2022_7fc5d602"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
             "mainClass": "lecture16.example1.Demo",
             "projectName": "cpit305-fall-2022_7fc5d602"
         },
