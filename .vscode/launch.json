@@ -8,6 +8,20 @@
             "type": "java",
             "name": "Launch Client",
             "request": "launch",
+            "mainClass": "lecture19.group_chat.client.Client",
+            "projectName": "cpit305-fall-2022_7fc5d602"
+        },
+        {
+            "type": "java",
+            "name": "Launch Server",
+            "request": "launch",
+            "mainClass": "lecture19.group_chat.server.Server",
+            "projectName": "cpit305-fall-2022_7fc5d602"
+        },
+        {
+            "type": "java",
+            "name": "Launch Client",
+            "request": "launch",
             "mainClass": "lecture18.example5.client.Client",
             "projectName": "cpit305-fall-2022_7fc5d602"
         },
