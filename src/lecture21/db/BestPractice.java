@@ -20,14 +20,14 @@ System.out.print("Enter id of emp: ");
     PreparedStatement stmt = conn.prepareStatement("SELECT * FROM employees WHERE id = ?;");
     // ResultSet result = stmt.exc
 
-    while (result.next()) {
-      int id = result.getInt("id");
-      String name = result.getString("name");
-      double salary = result.getDouble("salary");
+    // while (result.next()) {
+    //   int id = result.getInt("id");
+    //   String name = result.getString("name");
+    //   double salary = result.getDouble("salary");
 
-      System.out.printf("%10d  %15s  %10.2f\n", id, name, salary);
+    //   System.out.printf("%10d  %15s  %10.2f\n", id, name, salary);
 
-    }
+    // }
 
     conn.close();
   }
