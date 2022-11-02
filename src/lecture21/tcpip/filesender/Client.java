@@ -1,7 +1,5 @@
 package lecture21.tcpip.filesender;
 
-import java.awt.Component;
-import java.awt.HeadlessException;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.net.InetAddress;
@@ -9,7 +7,6 @@ import java.net.Socket;
 import java.net.UnknownHostException;
 import java.util.Scanner;
 
-import javax.swing.JDialog;
 import javax.swing.JFileChooser;
 
 public class Client {
@@ -32,15 +29,7 @@ public class Client {
       } else if (line.equals("file")) {
         if (buff == null) buff = new byte[BUFFER_SIZE];  // initialize buffer
 
-        JFileChooser chooser = new JFileChooser() {
-          @Override
-          protected JDialog createDialog(Component parent) throws HeadlessException {
-            // intercept the dialog created by JFileChooser
-            JDialog dialog = super.createDialog(parent);
-            dialog.setModal(true);  // set modality (or setModalityType)
-            return dialog;
-          }
-        };
+        JFileChooser chooser = new JFileChooser();
         int btn = chooser.showOpenDialog(null);
         if (btn == JFileChooser.APPROVE_OPTION) {
           dos.println("file");
