@@ -17,6 +17,8 @@ public class MyDataInputStream extends DataInputStream {
             int c = this.read();
             if (c == '\n') {
                 break;
+            } else if (c == -1) {
+                return null;
             }
             str.append((char) c);
         }
