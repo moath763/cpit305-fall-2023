@@ -8,13 +8,15 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Scanner;
 
-public class App {
-    public static void main(String[] args) throws SQLException {
+public class Sqlite {
+    public static void main(String[] args)  throws SQLException {
 
-        Connection conn = DriverManager.getConnection("jdbc:mariadb://localhost:3306/cpit305", "root", "123456");
+        Connection conn = DriverManager.getConnection("jdbc:sqlite:src/lecture22/my.db");
 
         Scanner keyboard = new Scanner(System.in);
         String line = "";
+
+        System.out.println(generateEmpID(conn));
 
         while (true) {
             System.out.println("Welcome to CPIT305 Database Browser:");
@@ -23,7 +25,8 @@ public class App {
             System.out.println("3. update an employee");
             System.out.println("4. delete an employee");
             System.out.println("5. search by name");
-            System.out.println("6. exit");
+            System.out.println("6. create employees table");
+            System.out.println("7. exit");
             System.out.print("choose: ");
             line = keyboard.nextLine();
 
@@ -47,10 +50,11 @@ public class App {
                 System.out.print("salary: ");
                 double salary = Double.parseDouble(keyboard.nextLine());
 
-                PreparedStatement ps = conn.prepareStatement("INSERT INTO employees (`name`, `salary`) VALUES (?, ?);");
+                PreparedStatement ps = conn.prepareStatement("INSERT INTO employees (`id`, `name`, `salary`) VALUES (?, ?, ?);");
 
-                ps.setString(1, name);
-                ps.setDouble(2, salary);
+                ps.setInt(1, generateEmpID(conn));
+                ps.setString(2, name);
+                ps.setDouble(3, salary);
 
                 int n = ps.executeUpdate();
                 System.out.println(n);
@@ -76,10 +80,31 @@ public class App {
                     System.out.println("\nNothing found!\n");
                 }
             } else if (line.equals("6")) {
+                PreparedStatement ps = conn.prepareStatement("""
+CREATE TABLE `employees` (
+  `id` int(11) NOT NULL,
+  `name` varchar(100) DEFAULT NULL,
+  `salary` decimal(10,2) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+);
+                """);
+
+                int n = ps.executeUpdate();
+                System.out.println(n);
+            } else if (line.equals("7")) {
                 break;
             }
         }
 
-        conn.close();
+        conn.close();        
+    }
+
+    private static int generateEmpID(Connection conn) throws SQLException {
+        Statement stmt = conn.createStatement();
+
+        ResultSet rs = stmt.executeQuery("SELECT MAX(id) as 'new_id' FROM employees;");
+        rs.next();
+
+        return rs.getInt("new_id") + 1;
     }
 }
